@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 timeStampAdapter.add(newTimeStamp);
 
                 //And notify the ArrayAdapter that the data set has changed, to request UI update
-                timeStampAdapter.notifyDataSetChanged();;
+                timeStampAdapter.notifyDataSetChanged();
 
             }
         });

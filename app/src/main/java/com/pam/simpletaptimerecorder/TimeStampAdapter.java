@@ -43,7 +43,7 @@ public class TimeStampAdapter extends ArrayAdapter<TimeStamp> {
         // and you ned to add your data to it
 
         //Get the correct TimeStamp
-        TimeStamp timeStampItem = getTimeStamp(position);
+        TimeStamp timeStampItem = getItem(position);
 
         //Find the UI elements in the view
         TextView todoDate = (TextView) rowView.findViewById(R.id.time_stamp);
