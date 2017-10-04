@@ -5,13 +5,14 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 /**
  * Created by Pam on 9/30/2017.
  */
 
-public class TimeStampAdapter {
+public class TimeStampAdapter extends ArrayAdapter<TimeStamp> {
 
 
     Context context;
